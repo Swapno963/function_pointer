@@ -21,7 +21,8 @@ int main()
     // x to the power a,
     //int ans = pow(x,a);
 
-    // abs give posite
+    // abs give posite value, but it can't work with long long int,
+    // for long long int we need to use if else to convert
     int ans = abs(x);
 
     printf("%d",ans);
